@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        ul{
+            list-style: none;
+        }
+        .ul0 li{
+            float: left;
+            width: 100px;
+            border-right: 1px solid lavender ;
+            text-align: center;
+        }
+        .content{
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+            position: absolute;
+            top: 37px;
+            left: 48px;
+        }
+        .content ul{
+            font-size: 20px;
+        }
+        .ul1,
+        .ul2,
+        .ul3{
+            position: relative;
+            top: 30px;
+            left: 20px;
+            clear: left;
+        }
+        .ul2,
+        .ul3{
+            display: none;
+        }
+
+    </style>
+    <script type="text/javascript" src="../JQuery/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+<div>
+    <ul class="ul0">
+        <li id="li1">一</li>
+        <li id="li2">二</li>
+        <li id="li3">三</li>
+    </ul>
+    <ul class="ul1">
+        <li>倒萨发放</li>
+        <li>倒萨发放</li>
+        <li>倒萨发放</li>
+    </ul>
+    <ul class="ul2">
+        <li>dsaf</li>
+        <li>dsaf</li>
+        <li>dsaf</li>
+    </ul>
+    <ul class="ul3">
+        <li>大师傅</li>
+        <li>大师傅</li>
+        <li>大师傅</li>
+    </ul>
+</div>
+<!--<div class="content">
+    <ul class="ul1">
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+    </ul>
+    <ul class="ul2">
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+    </ul>
+    <ul class="ul3">
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+        <li>内容</li>
+    </ul>
+</div>-->
+</body>
+<script>
+    $('.ul0 > li').css({'background':'green','color':'white'})
+    $('.ul0 li').hover(function(){
+        $(this).css({'background':'#19ff38'});
+    },function(){
+        var cssObj=({'background':'green'});
+        $(this).css(cssObj);
+    })
+    $('#li1').onclick(function(){
+        $('#ul1').css('display','none')}
+    )
+</script>
+</html>
