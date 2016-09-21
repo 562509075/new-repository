@@ -1,0 +1,472 @@
+@charset "UTF-8";
+#fullPage-nav{
+    font-size: 14px;
+
+}
+#fullPage-nav li{
+    width: 100px;
+    height: 20px;
+}
+#fullPage-nav li a{
+    color: #000000;
+    width: 20px;
+    height: 20px;
+    float: right;
+    background: url("../images/dot.png")1px 1px no-repeat;
+}
+.active{
+    background-position: 1px 1px; ;
+}
+.fullPage-tooltip{
+    color: #9a979e;
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+
+/***************************section1************************************/
+.section1{
+    position: relative;
+    overflow: hidden;
+}
+
+.section1 .bg{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+.section1 .bg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.section1 .bg12{
+    position: absolute;
+    bottom: -292px;
+    width: 100%;
+    height: 392px;
+    background: url("../images/bg12.png") 50% no-repeat;
+    opacity: 0;
+    transition: all 1.7s;
+}
+.section1 .bg13{
+    position: absolute;
+    bottom: -377px;
+    width: 100%;
+    height: 377px;
+    background: url("../images/bg13.png") 50% no-repeat;
+    transition: all 1s;
+}
+.section1 .hgroup{
+    background-image: url(../images/slogan.png);
+    position: absolute;
+    width: 554px;
+    height: 176px;
+    left: 50%;
+    top: 25%;
+    margin: 0 0 0 -277px;
+    text-indent: -9999px;
+    opacity: 0;
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    transition: all 1s;
+}
+.hgroup p{
+    color: lavender;
+    font-size: 15px;
+    width: 570px;
+    height: 300px;
+    line-height: 20px;
+    opacity: 0.7;
+}
+
+.mail{
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    width: 375px;
+    height: 26px;
+    margin-left: -157px;
+    background-image: url("../images/logo.png");
+    transition: all 1s;
+    float: left;
+    text-indent: -9999px;
+}
+.mail-163{
+    float: left;
+    width: 107px;
+}
+.mail-126{
+    float: left;
+    width: 108px;
+    margin-left: 23px;
+}
+.mail-yeah{
+    float: right;
+    width: 115px;
+}
+.active .mail{
+    top: 65px;
+    transition-delay:0.7s ;
+}
+.active h3{
+    opacity: 1;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    transition-delay:0.7s ;
+}
+.active .bg12{
+    bottom: 90px;
+    opacity: 1;
+    transition-delay:0.7s ;
+}
+.active .bg13{
+    bottom: 0;
+    opacity: 1;
+    transition-delay:0.7s ;
+}
+.active .hgroup{
+    opacity: 1;
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    transition-delay:0.7s ;
+}
+/***************************section2************************************/
+.section2{
+    position: relative;
+    overflow: hidden;
+}
+.section2 .bg{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+.section2 .bg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.section2 h1{
+    position: absolute;
+    top: 5%;
+    left: 29%;
+    color: #2e5e9e;
+}
+.section2 p{
+    position: absolute;
+    top: 90%;
+    left: 29%;
+    color: #2e5e9e;
+    line-height: 25px;
+    transition: all 0.6s;
+}
+.section2 .bg22{
+    background: url("../images/dzyx.png");
+    width: 653px;
+    height: 44px;
+    position: absolute;
+    left: 29%;
+    top: 19%;
+    transition: all 0.6s;
+}
+.section2 .bg23{
+    background: greenyellow;
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    left: 29%;
+    top: 90%;
+    transition: all 0.6s;
+}
+.active .bg22{
+    top: 14%;
+    opacity: 1;
+    transition-delay:0.6s ;
+}
+.active .bg23{
+    top: 33%;
+    opacity: 1;
+    transition-delay:0.6s ;
+}
+.active p{
+    top: 20%;
+    opacity: 1;
+    transition-delay:0.6s ;
+}
+/***************************section3************************************/
+.section3{
+    position: relative;
+    overflow: hidden;
+}
+.section3 .bg{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+.section3 .bg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.section3 h1{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: rgba(88, 85, 92, 0.75);
+    transition: all 0.7s;
+}
+.section3 .bg32{
+    background: url("../images/t2.png");
+    width: 512px;
+    height: 45px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transition: all 0.7s;
+}
+.active .bg32{
+    top: 25%;
+    opacity: 1;
+    transition-delay:0.7s ;
+}
+.active #b3h1{
+    top: 15%;
+    opacity: 1;
+    transition-delay:0.7s ;
+}
+.section3 p{
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    transition: all 0.7s;
+    color: rgba(95, 92, 99, 0.75);
+}
+.active #b3p{
+    top: 32%;
+    opacity: 1;
+    transition-delay: 0.7s;
+}
+.section3 .bg33 img{
+    width: 780px;
+    height: 320px;
+}
+.section3 .bg33{
+    width: 780px;
+    height: 320px;
+    position: absolute;
+    bottom:10%;
+    left: 24%;
+    z-index: 555;
+    opacity: 0;
+    transition: 0.7s;
+}
+.active .bg33{
+    bottom: 0;
+    opacity: 1;
+    transition-delay: 0.7s;
+}
+.section3 .bg34{
+    background: url("../images/bg21.png")no-repeat;
+    width: 233px;
+    height: 250px;
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    opacity: 0.5;
+    transition: 0.7s;
+}
+.active .bg34{
+    left: 10%;
+    opacity: 1;
+    transition-delay: 0.7s;
+}
+.section3 .bg35{
+    background: url("../images/bg22.png")no-repeat;
+    width: 211px;
+    height: 299px;
+    position: absolute;
+    bottom: 8%;
+    right: 15%;
+    opacity: 0.5;
+    transition: 0.7s;
+}
+.active .bg35{
+    right: 10%;
+    opacity: 1;
+    transition-delay: 0.7s;
+}
+/******************************section4*************************************/
+.section4{
+    position: relative;
+    overflow: hidden;
+}
+.section4 .bg{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+.section4 .bg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.section4 #b4h1{
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    color: rgba(218, 218, 0, 0.89);
+    transition: 0.7s;
+}
+.active #b4h1{
+    top: 7%;
+    transition-delay: 0.7s;
+}
+.section4 .bg42{
+    background: url("../images/t3.png")no-repeat;
+    width: 513px;
+    height: 45px;
+    position: absolute;
+    top: 21%;
+    left: 30%;
+    transition: 0.7s;
+}
+.active .bg42{
+    top: 16%;
+    transition-delay: 0.7s;
+}
+.section4 #b4p{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    transition: 0.7s;
+    font-size: 18px;
+    color: rgba(235, 231, 210, 0.87);
+    opacity: 0.2;
+    transition: 0.7s;
+    line-height: 30px;
+}
+.active #b4p{
+    left: 13%;
+    opacity: 1;
+    transition-delay: 0.7s;
+}
+.section4 .bg43{
+    background: url("../images/bg31.png")no-repeat;
+    width: 892px;
+    height: 472px;
+    position: absolute;
+    bottom: 9%;
+    right: 5%;
+    opacity: 0;
+    transition: 0.7s;
+}
+.active .bg43{
+    opacity: 1;
+    transition-delay: 0.7s;
+}
+.section4 .bg44{
+    background: url("../images/bg32.png")no-repeat;
+    width: 322px;
+    height: 143px;
+    position: absolute;
+    bottom: 30%;
+    right: 12%;
+    z-index: 10;
+    opacity: 0;
+    transition: 0.7s;
+}
+.active .bg44{
+    bottom: 0;
+    opacity: 1;
+    transition-delay: 0.7s;
+}
+.section4 .bg45{
+    background: url("../images/bg33.png")no-repeat;
+    width: 441px;
+    height: 380px;
+    position: absolute;
+    bottom: 0;
+    right: 24%;
+    opacity: 0;
+    transition: 0.7s;
+}
+.active .bg45{
+    right: 19%;
+    opacity: 1;
+    transition-delay: 0.7s;
+}
+/******************************section5******************************/
+.section5{
+    position: relative;
+    overflow: hidden;
+}
+.section5 .bg{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+.section5 .bg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.section5 #b5h1{
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    color: #3f95bc;
+}
+.section5 .bg52{
+    background: url("../images/t4.png")no-repeat;
+    width: 512px;
+    height: 45px;
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    transition: 0.7s;
+}
+.section5 #b5p{
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    color: #3f95bc;
+    font-size: 16px;
+    line-height: 30px;
+}
+.section5 .bg53{
+    background: url("../images/bg42.png")no-repeat;
+    width: 1156px;
+    height: 449px;
+    position: absolute;
+    bottom: 4%;
+    left: 6%;
+    transition: 0.7s;
+    z-index: 11;
+}
+.section5 .bg54{
+    background: url("../images/bg41.png")no-repeat;
+    width: 1228px;
+    height: 372px;
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+}
+.section5 .bg55{
+    background: url("../images/bg43.png")no-repeat;
+    width: 1019px;
+    height: 248px;
+    position: absolute;
+    bottom: 16%;
+    left: 8%;
+    z-index: 12;
+}
